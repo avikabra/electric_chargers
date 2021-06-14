@@ -1,7 +1,7 @@
 # electric_chargers
 Optimisation Research Problem led by IIT Chandigarh on how to ideally place electric chargers around Chandigarh </br>
 
-### Initial brainstorming - 14 Jun 2021 ### </br>
+### Initial brainstorming - 14 Jun 2021 ###
 Tentative model: linear programming, traditional constraint problem </br>
 </br>
 Similar papers: </br>
