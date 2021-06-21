@@ -44,3 +44,32 @@ Tentative constraints: </br>
         * socio economic 
         * power distribution
         * network optimization
+
+### Meeting notes - 21 Jun 2021 ###
+Yamini Presentation: 
+* two different stages 
+    * first stage: screening of the candidate locations
+    * second stage: optimization through a) cost function, b) accessibility index, c) incorporating the waiting time
+</br>
+
+Factors to consider and optimization </br>
+ASSUMPTIONS: 
+* fast / slow charging stations
+
+NOW:
+* electric car range (to address range anxiety)
+
+LATER
+* waiting time for each car at the station (is an optimization problem)
+* accessibility index (solves the problem of range anxiety, but doesn't make a large difference because )
+</br>
+
+Overview: 
+1. Implement stage 1 for a toy model with randomized inputs and constraints
+2. Optimize stage 1 in stage 2 for said inputs and constraints
+3. Apply to individual cities
+</br>
+
+Next Steps:
+1. Check document for notes (https://docs.google.com/document/d/1EGx8vX48HEVFUJrC1AG5TfXA7Ka5clb06fd8iwofrC4/edit?ts=60d065a4)
+2. Brainstorm individually
