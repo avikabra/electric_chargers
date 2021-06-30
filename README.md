@@ -76,4 +76,23 @@ Next Steps:
 
 ### Meeting Notes - 29 Jun 2021 ###
 Thoughts on specific implementations of constraints as well as a larger overview on topics was completed. Planning (along with my own comments in red) is highlighted in this document: https://docs.google.com/document/d/1WDhIDYcyqWUILn8Yc8v6_6BNkk9gLeKBngfzhqUvj9s/edit </br>
-Next steps going forward are to begin coding; Yamini will share a Github repo and we will begin building the toy model probably with large simplifications. 
+Next steps going forward are to begin coding; Yamini will share a Github repo and we will begin building the toy model probably with large simplifications. </br>
+</br>
+Thoughts on papers about optimal EVSE placement: </br>
+https://arxiv.org/pdf/1801.02129.pdf
+* utilizes a nested logit model (not entirely sure what that is)
+    * used to predict charging demand and consumer behavior
+* assumptions listed in the introduction, could be worth looking at for the project to see if overlap is evident
+* Bayesian model vs Bayesian game?
+    * Bayesian game is essentially also governed by a probability distribution since the actions of the consumer are not known
+* our approach has us leading into the problem from the perspective of an urban planner
+    * what role does the free, competitive market play
+* what this work essentially does
+    * we can use the nested logit model presented in this paper to evaluate the customer satisfaction of our model
+        * considers travel patterns of people to check effectiveness
+        * if EVSE placed in high-traffic region, should be more rewarding than if in isolated regions
+    * we can look at their placement strategy to see what factors and constraints they considered prior to EVSE placement
+* implications for IIT project:
+    * provides a method by which effectiveness can be measured
+    * introduces relevant constraints and problems in the Western world (may or may not related to India specifically)
+    * no toy model is created, so this paper will be increasingly more useful as the toy model is applied to real cities
