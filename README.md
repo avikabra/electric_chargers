@@ -59,7 +59,7 @@ ASSUMPTIONS:
 NOW:
 * electric car range (to address range anxiety)
 
-LATER
+LATER:
 * waiting time for each car at the station (is an optimization problem)
 * accessibility index (solves the problem of range anxiety, but doesn't make a large difference because )
 </br>
@@ -73,3 +73,7 @@ Overview:
 Next Steps:
 1. Check document for notes (https://docs.google.com/document/d/1EGx8vX48HEVFUJrC1AG5TfXA7Ka5clb06fd8iwofrC4/edit?ts=60d065a4)
 2. Brainstorm individually
+
+### Meeting Notes - 29 Jun 2021 ###
+Thoughts on specific implementations of constraints as well as a larger overview on topics was completed. Planning (along with my own comments in red) is highlighted in this document: https://docs.google.com/document/d/1WDhIDYcyqWUILn8Yc8v6_6BNkk9gLeKBngfzhqUvj9s/edit </br>
+Next steps going forward are to begin coding; Yamini will share a Github repo and we will begin building the toy model probably with large simplifications. 
