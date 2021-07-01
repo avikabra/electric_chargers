@@ -96,3 +96,21 @@ https://arxiv.org/pdf/1801.02129.pdf
     * provides a method by which effectiveness can be measured
     * introduces relevant constraints and problems in the Western world (may or may not related to India specifically)
     * no toy model is created, so this paper will be increasingly more useful as the toy model is applied to real cities
+
+http://ieeexplore.ieee.org/document/7275344/
+* views placing electric chargers as a location optimization problem
+* method: mixed integer linear programming
+    * hueristic algo as opposed to exact, meaning that the solution might not be optimal, but it is fast and close
+    * genetic algorithm is used
+        * relates the problem to some type of genetic hueristic
+        * it presumably works
+* uses MATLAB simulation as a measure of effectivness
+* constraints
+    * investment cost
+    * transportation cost
+    * users demand
+    * station's capacity
+    * coverage of the whole area, convenience
+* this solution does not consider roads, but does consider larger sectors
+* model is highly generalized, could be a similar approach to the one that we take
+* application to a city was also very general, how specific do we want to go?
