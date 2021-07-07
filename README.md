@@ -114,3 +114,8 @@ http://ieeexplore.ieee.org/document/7275344/
 * this solution does not consider roads, but does consider larger sectors
 * model is highly generalized, could be a similar approach to the one that we take
 * application to a city was also very general, how specific do we want to go?
+
+Meeting on Jul 5:
+job - to construct the Bayesian network and probabilities with given data about VSF, transportation network
+Bayesian network can be constructed using the Bayesian package from Intro to AI package
+ideation is attatched below: 
