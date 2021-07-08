@@ -4,7 +4,6 @@
 
 from pomegranate import *
 
-"""
 # Rain node has no parents
 rain = Node(DiscreteDistribution({
     "none": 0.7,
@@ -81,6 +80,4 @@ for node, prediction in zip(model.states, predictions):
         print(f"{node.name}")
         for value, probability in prediction.parameters[0].items():
             print(f"    {value}: {probability:.4f}")
-
-"""
 
