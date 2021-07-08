@@ -115,7 +115,8 @@ http://ieeexplore.ieee.org/document/7275344/
 * model is highly generalized, could be a similar approach to the one that we take
 * application to a city was also very general, how specific do we want to go?
 
-Meeting on Jul 5:
+### Meeting on Jul 5 ###
 job - to construct the Bayesian network and probabilities with given data about VSF, transportation network
-Bayesian network can be constructed using the Bayesian package from Intro to AI package
-ideation is attatched below: 
+Bayesian network can be constructed using the Bayesian package from Intro to AI package </br>
+Code can be found largely in the `Final1.py` Python file. `bayesian_network.py` contains the Intro to AI template used. </br>
+</br>
