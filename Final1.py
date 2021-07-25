@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # READING REQUIRED CSV FILES AND CONVERTING THEM INTO LISTS/DICTIONARIES
 
 # DISTRIBUTION NETWORK
-print('DISTRIBUTION NETWORK')
+#print('DISTRIBUTION NETWORK')
 #To print the list of names of nodes:
 with open(r'data/distribution_nodes.csv', 'r') as dist_nodecsv: # Open the file
     dist_nodereader = csv.reader(dist_nodecsv) # Read the csv
@@ -58,11 +58,11 @@ for i in dist_node_names:
         stability_factors[i] = j
         VSF_names.remove(j)
         break
-print('Assigning stability factors to the corresponding edges:', stability_factors)
-print()
+#print('Assigning stability factors to the corresponding edges:', stability_factors)
+#print()
 #ROAD NETWORK
 
-print('ROAD NETWORK')
+#print('ROAD NETWORK')
 #To print the list of names of nodes:
 with open(r'data/road_nodes.csv', 'r') as road_nodecsv: # Open the file
     road_nodereader = csv.reader(road_nodecsv) # Read the csv
@@ -111,8 +111,8 @@ for i in road_edges:
         probabilities[i] = j
         final_weights.remove(j)
         break
-print('Assigning congestion factors to the corresponding edges:', probabilities)
-print()
+#print('Assigning congestion factors to the corresponding edges:', probabilities)
+#print()
 
 with open(r'data/road_length.csv', 'r') as lengthcsv: # Open the file
     lengthreader = csv.reader(lengthcsv) # Read the csv
@@ -129,8 +129,8 @@ for i in road_edges:
         Distances[i] = j
         final_lengths.remove(j)
         break
-print('Assigning distance factors to the corresponding edges:', Distances)
-print()
+#print('Assigning distance factors to the corresponding edges:', Distances)
+#print()
 
 
 #########################################################################################################################
