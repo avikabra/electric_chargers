@@ -120,3 +120,13 @@ job - to construct the Bayesian network and probabilities with given data about 
 Bayesian network can be constructed using the Bayesian package from Intro to AI package </br>
 Code can be found largely in the `Final1.py` Python file. `bayesian_network.py` contains the Intro to AI template used. </br>
 </br>
+
+### Work from Jul 5 - Jul 25 ###
+1. Determine candidate locations for the toy model
+   * using randomly generated data, use a Bayesian network to probabilistically determine whether different distribution network busses are suitable for electric charger construction consider voltage stability, distance from distribution network, and transportation network congestion.
+2. Optimize number of fast charging stations per candidate location
+   * done with the scipy optimize package using equations listed in the final report documnet
+3. Apply above steps to a real city
+   * first find the candidate locations based on same factors, then optimize the number of fast charging stations to cater to waiting time objective function
+   * city data along with modified programs can be found in the `real_city` directory
+
